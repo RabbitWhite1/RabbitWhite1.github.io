@@ -4,6 +4,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: katex  # 我加了这个才能显示 latex 数学公式
+
 permalink: pretty
 plugins:
   - jekyll-sitemap

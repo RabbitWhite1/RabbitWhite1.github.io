@@ -1,8 +1,12 @@
 {%- include common/rest/workdir.liquid %}
 
+
 {% comment %} list the root files {% endcomment %}
 <ul>
     {%- for item in workdir_files -%}
+        {% raw %} itemdir start: {% endraw %}
+        {{ item.path }}
+        {% raw %} itemdir end! {% endraw %}
         {%- assign level = item.dir | append: "temp" | replace_first: "/", "" | split: "/" | size -%}
         {%- capture current -%}
             {%- if page.url == item.url %}current{% endif -%}

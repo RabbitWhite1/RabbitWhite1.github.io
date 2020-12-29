@@ -18,11 +18,11 @@ VERSION:	Versoin Number
 @import "variables";
 @import "root";
 
-// @import "lib/@primer/css/base";
-// @import "lib/@primer/css/breadcrumb";
+@import "lib/@primer/css/base";
+@import "lib/@primer/css/breadcrumb";
 // @import "lib/@primer/css/buttons";
-// @import "lib/@primer/css/forms";
-// @import "lib/@primer/css/loaders";
+@import "lib/@primer/css/forms";
+@import "lib/@primer/css/loaders";
 @import "lib/@primer/css/markdown";
 @import "lib/rouge/github";  // 代码高亮 (code highlight)
 

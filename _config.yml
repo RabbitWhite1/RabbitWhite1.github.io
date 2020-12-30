@@ -1,15 +1,22 @@
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
+readme_index:
+  enabled:          true
+  remove_originals: true
+  with_frontmatter: true
+  
 # Build settings
 markdown: kramdown
 kramdown:
   math_engine: katex  # 我加了这个才能显示 latex 数学公式
 
-permalink: pretty
+# permalink: pretty
 plugins:
   - jekyll-sitemap
+  - jekyll-readme-index
+
 compress_html:
   clippings: all
   comments: all
@@ -24,7 +31,7 @@ defaults:
   - scope:
       path: '_posts'
     values:
-      permalink: /:path:output_ext
+      permalink: /posts/:path:output_ext
 
 include:
   - _pages

@@ -1,4 +1,4 @@
-{%- assign workdir = include.workdir | default: "/" -%}
+{%- assign workdir = include.workdir | default: "/posts" -%}
 
 {%- assign workdir_level = workdir | append: "temp" | replace_first: "/", "" | split: "/" | size -%}
 {%- assign workdir_files = site_files | where_exp: "item", "item.dir == workdir" -%}

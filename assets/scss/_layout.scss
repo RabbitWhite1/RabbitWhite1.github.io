@@ -1,20 +1,24 @@
 .menu-sm {
   position: fixed;
   bottom: 0;
-  left: -$theme-menu-width-sm;
-  width: $theme-menu-width-sm;
+  top: 142px;
+  // left: -$theme-menu-width-sm;
+  // width: $theme-menu-width-sm;
   max-height: 100%;
 
-  &.shift {
-    left: 0;
-  }
+  // &.shift {
+  //   left: 0;
+  // }
 }
 
 .sidebar-wrap {
-  top: 0;
-
+  left: 0%;
+  max-width: 18%;
   @extend .menu-sm;
 
+  &.sidewarp-nav-bg {
+    top: 112px;
+  }
   .sidebar > :last-child {
     margin-bottom: 5em;
   }

@@ -1,5 +1,5 @@
 ---
-layout: tasks/compress
+layout: ../tasks/compress
 ---
 
 {%- include rest/defaults.liquid -%}
@@ -14,18 +14,15 @@ layout: tasks/compress
         {%- include common/schema.liquid -%}
         {%- include common/links.liquid -%}
         {% comment %} {%- include rest/styles.liquid -%} {% endcomment %}
-        {%- include rest/styles.liquid -%}
         {%- include common/script.liquid -%}
     </head>
-    <body class="container">
-        {% comment %} {% include sections/header.html %} {% endcomment %}
-        {%- include templates/sidebar.liquid -%}
-        {%- include templates/addons.liquid -%}
-        {% comment %} {{ content }} {% endcomment %}
+    <body>
+        {% include sections/header.html %}
+        {% comment %} {% include templates/content.liquid %} {% endcomment %}
+        {{ content }}
         {% include common/mermaid.liquid %}
-        {% include common/google_gtag.liquid %}
         {%- include rest/script.liquid -%}
 
-        {% comment %} {% include sections/footer.html %} {% endcomment %}
+        {% include sections/footer.html %}
     </body>
 </html>

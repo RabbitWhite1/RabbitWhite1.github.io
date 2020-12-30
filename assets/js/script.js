@@ -7,8 +7,10 @@
     $(window).scroll(function () {
         if ($('.navigation').offset().top > 100) {
             $('.navigation').addClass('nav-bg');
+            $('.sidebar-wrap').addClass('sidewarp-nav-bg');
         } else {
             $('.navigation').removeClass('nav-bg');
+            $('.sidebar-wrap').removeClass('sidewarp-nav-bg');
         }
     });
 

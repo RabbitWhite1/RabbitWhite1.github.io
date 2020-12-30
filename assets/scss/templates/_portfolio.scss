@@ -1,8 +1,11 @@
 .page-title {
-  padding: 250px 0 150px;
+  padding: 18% 0;
 
   .container {
-    position: relative;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    max-width: 70%;
     z-index: 1;
   }
 

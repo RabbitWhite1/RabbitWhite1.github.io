@@ -1,5 +1,7 @@
 ---
-sort: 3
+layout: sidebar-page
+title: Posts
+sort: 1
 ---
 
 # Presto Documentation

@@ -48,3 +48,5 @@ exclude:
   - README.md
   - SECURITY.md
   - Makefile
+  - .gitignore
+  - note.md

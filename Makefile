@@ -15,4 +15,3 @@ build:
 
 serve: copy_post
 	@bundler exec jekyll serve
-

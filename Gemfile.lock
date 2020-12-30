@@ -99,6 +99,7 @@ DEPENDENCIES
   jekyll (= 3.9.0)
   jekyll-readme-index
   jekyll-sitemap
+  kramdown
   kramdown-math-katex
   kramdown-parser-gfm
   nokogiri

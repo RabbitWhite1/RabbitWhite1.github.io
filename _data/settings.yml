@@ -8,7 +8,7 @@ description: It's Hank's Website. Hank is an undergraduate in USTC, majored in C
 email: hankzhwang@gmail.com
 phone: +86 150 5958 9255
 address: USTC, Hefei, Anhui, China
-copyright: Copyright &copy; [Hank](https://github.com/RabbitWhite1)'s Website, Contents' Copyright Belongs to [Zhanghan Wang](https://github.com/RabbitWhite1) <br> 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+copyright: Copyright &copy; [Hank](https://github.com/RabbitWhite1)'s Website, Contents' Copyright Belongs to [Zhanghan Wang](https://github.com/RabbitWhite1) <br> Templates 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
 - {name: About, link: '/about'}
@@ -95,26 +95,34 @@ blurb-btn-name: know more
 
 skills-title: Skills
 skills:
-- {name: Python, color: '#fdb157', value: '90%'}
-- {name: C++, color: '#9473e6', value: '70%'}
-# - {name: After Effects, color: '#bdecf6', value: '80%'}
+- {name: Python, color: '#fdb157', value: '70%'}
+- {name: C++, color: '#9473e6', value: '60%'}
+- {name: pytorch, color: '#bdecf6', value: '50%'}
 # - {name: Web App, color: '#ffbcaa', value: '70%'}
 
 
 #-------------------------------
 # Exprerience Section
 
-# experience-title: Experience
-# experience:
-# - {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-# - {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-# - {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+experience-title: Experience
+experience:
+- {
+    name: <a href="https://github.com/OSH-2020/GDBFS">Graph DataBase File System</a>,
+    icon: '/assets/images/gdbfs/gdbfs.png',
+    date: 'Feb 2019 - July 2019',
+    organization: 'USTC codenowww Group'
+  }
+- {
+    name: <a href="https://github.com/RabbitWhite1/Mathematical-Modeling-In-Python">Mathematical Modeling in Python</a>,
+    icon: '/assets/images/mathmodelling/mathmodelling.png',
+    date: 'Jan 2020 - Sep 2020'
+  }
 
 
 #-------------------------------
 # Education Section
 
-# education-title: Education
+education-title: Education
 education:
 - {name: Undergraduate in Computer Science, date: '2022', organization: 'University of Science and Technology of China'}
 

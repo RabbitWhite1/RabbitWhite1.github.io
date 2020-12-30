@@ -11,6 +11,7 @@ gem 'jekyll-sitemap'
 gem "jekyll-readme-index"
 
 # markdown
+gem "kramdown"
 gem "kramdown-parser-gfm"
 gem "kramdown-math-katex"
 

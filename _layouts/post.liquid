@@ -37,7 +37,7 @@ layout: sidebar-page
         <h2 class="section-title">Similar Stories</h2>
       </div>
       {% for post in site.posts offset:0 limit:3 %}
-      {% include sections/post-section.html %}
+      {% include sections/post-section.liquid %}
       {% endfor %}
     </div>
   </div>

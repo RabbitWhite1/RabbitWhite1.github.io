@@ -8,7 +8,8 @@
       </div>
       {% for experience in site.data.settings.experience %}
       <div class="col-lg-3 col-md-4 text-center">
-        <img src="{{ site.baseurl }}/assets/images/experience/{{ experience.icon }}" alt="{{ site.data.settings.experience-title }} icon">
+        <img src="{{ site.baseurl }}{{ experience.icon }}" alt="{{ site.data.settings.experience-title }} icon"
+          style="height: 200px; width: 200px;">
         <p class="mb-0">{{ experience.date }}</p>
         <h4>{{ experience.name }}</h4>
         <h6 class="text-light">{{ experience.organization }}</h6>

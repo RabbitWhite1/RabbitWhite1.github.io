@@ -16,7 +16,7 @@ title: Test
     <div class="row">
       {% for post in site.posts %}
         {% if post.url contains page.url %}
-            {% include sections/post-section.html %}
+            {% include sections/post-section.liquid %}
         {% endif %}
       {% endfor %}
     </div>

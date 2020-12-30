@@ -12,7 +12,7 @@ layout: sidebar-page
           on {% for tag in page.tags %}<span>{{ tag }} </span>{% endfor %}
         </p>
         <div class="markdown-body">
-          <img src="{{page.image | relative_url }}" class="img-fluid rounded float-left mr-5 mb-4" alt="{{page.title}}">
+          {% comment %} <img src="{{page.image | relative_url }}" class="img-fluid rounded float-left mr-5 mb-4" alt="{{page.title}}"> {% endcomment %}
           {{ content }}
         </div>
       </div>

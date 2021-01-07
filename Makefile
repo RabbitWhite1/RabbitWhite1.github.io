@@ -14,4 +14,4 @@ build:
 	@bundler exec jekyll build
 
 serve: copy_post
-	@bundler exec jekyll serve
+	@bundler exec jekyll serve -P4001

@@ -2,7 +2,7 @@
 layout: post
 title:  LLVM Lab 示例代码笔记
 date:   2021-01-08 00:00:00 +0800
-image:  /assets/images/presto/presto-hetu.png
+image:  /assets/images/llvm/llvm_logo.png
 author: Hank Wang
 tags: llvm
 ---

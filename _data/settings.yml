@@ -10,11 +10,6 @@ phone: +86 150 5958 9255
 address: USTC, Hefei, Anhui, China
 copyright: Copyright &copy; [Hank](https://github.com/RabbitWhite1)'s Website, Contents' Copyright Belongs to [Zhanghan Wang](https://github.com/RabbitWhite1) <br> Templates 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
-# Navigation
-nav:
-- name:     "gdbfs"
-  url:      "/about"
-
 menu:
 - {name: About, link: '/about'}
 - {name: Blog, link: '/blog'}

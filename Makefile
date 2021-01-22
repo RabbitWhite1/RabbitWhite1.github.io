@@ -1,11 +1,9 @@
-POSTS_DIR="posts"
-
 clean:
 	@bundle exec jekyll clean
-	@rm -r _posts
+	@rm -r posts
 
 copy_post: clean
-	@cp -r $(POSTS_DIR) _posts
+	@cp -r _posts posts
 
 install:
 	@bundler install
@@ -13,5 +11,5 @@ install:
 build:
 	@bundler exec jekyll build
 
-serve: copy_post
+serve:
 	@bundler exec jekyll serve -P4001

@@ -1,6 +1,8 @@
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Version
+version: 1.0.0
 
 readme_index:
   enabled:          true

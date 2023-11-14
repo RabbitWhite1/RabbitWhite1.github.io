@@ -131,15 +131,55 @@
                 <ul>
                   <li>
                     <div class="item">
-                      <img src="img/research/concolic.jpg" alt="">
+                      <!-- <img src="img/research/concolic.jpg" alt=""> -->
                       <div class="text-content">
-                        <h4>OpenJDK-based Concolic Execution Engine</h4>
+                        <h4>Checking correctness of distributed protocol implementation at runtime</h4>
+                        <span>Sept 2023 - Present</span>
+                        <br>
+                        <span>Advisor: Aurojit Panda (NYU) and Jinyang Li (NYU)</span>
+                        <p>
+                          In this project, we built a framework to check the correctness of distributed protocol implementation at
+                          runtime. This framework maintains a simulation of the protocol and checks the consistency based on the 
+                          incoming and outgoing message on each node.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <!-- <img src="img/research/concolic.jpg" alt=""> -->
+                      <div class="text-content">
+                        <h4>Database Deadlock Diagnosis for Large-scale ORM-based Web Application</h4>
                         <span>July 2021 - Jan 2022</span>
-                        <p>We directly modified OpenJDK source codes to make this concolic execution engine applicable
-                          to all valid Java programs.</p>
-                        <div class="accent-button button">
+                        <br>
+                        <span>Advisor: Jinyang Li (NYU) and Zhaoguo Wang (SJTU)</span>
+                        <p>Database-backed web application usually relies database to handle deadlocks. However, the common-used 
+                          detect-and-recover strategy could be costly. Although developers can sometimes reorganize their application 
+                          to removedeadlocks, the large number of LOC and third-party ORM frameworks they use make this much more 
+                          difficult.  In thisproject, we use symbolic execution to extract the APIs' statement templates with 
+                          symbolic inputs and path conditions forthe issued statements.  Based on the information, we then analyze 
+                          and report the potential deadlocks.</p>
+                        <!-- <div class="accent-button button">
                           <a target="_blank">Stay Tuned</a>
-                        </div>
+                        </div> -->
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <img src="img/research/dlrm.png" alt="">
+                      <div class="text-content">
+                        <h4>Improve load balance for DLRM with Programmable Switch</h4>
+                        <span>Jan 2023 - Sept 2023</span>
+                        <br>
+                        <span>Advisor: Jialin Li (NUS)</span>
+                        <p>Deep Learning Recommendation Model(DLRM) is a widely used recommendation model developed by Meta. DLRM uses 
+                          embedding tables that encodes sparse features like movie genres. However, there a lot of such tables, and the 
+                          number of embeddings and the embedding sizes varies a lot. Thus, they are usually partitioned into different 
+                          machines. Nevertheless, the accessing pattern is skewed due to the popularity of data. Thus, we tried to use 
+                          programmable switch to improve the load balance by caching several embedding entries and route the lookup 
+                          requests based on caching status. Unfortunately, this work hasn't done due to some personal reasons.
+                        </p>
                       </div>
                     </div>
                   </li>
@@ -147,6 +187,25 @@
               </div>
               <div id="tab_project">
                 <ul>
+                  <li>
+                    <div class="item">
+                      <img src="img/project/drocksdb.png" alt="">
+                      <div class="text-content">
+                        <h4>RocksDB with Disaggregated Block Cache.</h4>
+                        <span>March 2023 - June 2023</span>
+                        <br>
+                        <span>Advisor: Cheng Li (USTC)</span>
+                        <p>This is my undergraduate thesis. In this work, I explored using RDMA to disaggregate the block cache of 
+                          RocksDB to improve the overal throughput of LSM-Tree-based KV store. This project help alleviate the 
+                          memory burden of block cache in RocksDB and disaggregate more than 75% memory with only 15% performance
+                          drop.
+                        </p>
+                        <div class="accent-button button">
+                          <a href="https://github.com/RabbitWhite1/d-rocksdb" target="_blank">Code</a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
                   <li>
                     <div class="item">
                       <img src="img/project/left_deep_join_tree.jpg" alt="">
@@ -201,7 +260,7 @@
               <h4>New York University</h4>
               <span>2022.09 - Present</span>
               <p>
-                I am now an first-year PhD student at NYU, researching on safety of distributed systems, advised by 
+                I am now an second-year PhD student at NYU, researching on safety of distributed systems, advised by 
                 Prof. <a href="https://cs.nyu.edu/~apanda/" target="_blank">Aurojit Panda</a>.
               </p>
             </div>
@@ -272,7 +331,7 @@
       </div>
     </section>
     <section class="footer">
-      <p>Copyright &copy; 2022 Zhanghan Wang & Yingxin Wu</p>
+      <p>Copyright &copy; 2023 Zhanghan Wang & Yingxin Wu</p>
     </section>
   </div>
 

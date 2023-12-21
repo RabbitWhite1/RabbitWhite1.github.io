@@ -138,9 +138,11 @@
                         <br>
                         <span>Advisor: Aurojit Panda (NYU) and Jinyang Li (NYU)</span>
                         <p>
-                          In this project, we built a framework to check the correctness of distributed protocol implementation at
-                          runtime. This framework maintains a simulation of the protocol and checks the consistency based on the 
-                          incoming and outgoing message on each node.
+                          Distributed systems are notoriously difficult to implement correctly. By exploring interleavings of 
+                          messages and maintaining a protocol simulator with potential states, we can check whether the 
+                          implementation is consistent with the protocol specification. Our work avoids inter-server 
+                          communication by only using the sent and received messages from/to every single server, and reduces 
+                          exploration cost with some pruning optimizations.
                         </p>
                       </div>
                     </div>
@@ -152,7 +154,7 @@
                         <h4>Improve Load Balance for DLRM with Programmable Switch</h4>
                         <span>Jan 2023 - Sept 2023</span>
                         <br>
-                        <span>Advisor: Jialin Li (NUS)</span>
+                        <span>Advisor: Jialin Li (NUS) and Liang Luo (Meta, US)</span>
                         <p>Deep Learning Recommendation Model(DLRM) is a widely used recommendation model developed by Meta. DLRM 
                           uses embedding tables that encode sparse features like movie genres. However, there are a lot of such 
                           tables, and the number of embeddings and the embedding sizes vary a lot. Thus, they are usually 

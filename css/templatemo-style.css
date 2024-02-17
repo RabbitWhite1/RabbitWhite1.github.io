@@ -770,17 +770,15 @@ header {
 }
 
 
+/* tabbed-list Style */
 
-
-/* Research Style */
-
-#research {
+.tabbed-list {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 80px;
 }
 
-#research .tabs {
+.tabbed-list .tabs {
   list-style: none;
   margin: 0px;
   padding: 0px;
@@ -790,7 +788,7 @@ header {
   border-bottom: 10px solid var(--theme-color);
 }
 
-#research .tabs li {
+.tabbed-list .tabs li {
   display: inline-block;
   text-align: center;
   width: 25%;
@@ -798,7 +796,7 @@ header {
   padding: 0;
 }
 
-#research .tabs a {
+.tabbed-list .tabs a {
   display: block;
   text-align: center;
   text-decoration: none;
@@ -811,16 +809,16 @@ header {
   transition: 0.5s;
 }
 
-#research .tabs a:hover {
+.tabbed-list .tabs a:hover {
   color: var(--theme-color);
 }
 
 
-#research .tabs .active:hover {
+.tabbed-list .tabs .active:hover {
   color: #fff;
 }
 
-#research .tabs .active {
+.tabbed-list .tabs .active {
   background-color: var(--theme-color);
   color: #fff;
 }
@@ -836,13 +834,13 @@ header {
   clear:both;
 }
 
-#research .tabgroup ul {
+.tabbed-list .tabgroup ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-#research .tabgroup ul li {
+.tabbed-list .tabgroup ul li {
   display: inline-block;
   text-align: left;
   margin-bottom: 10px;
@@ -850,13 +848,13 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
-#research .tabgroup ul li:last-child {
+.tabbed-list .tabgroup ul li:last-child {
   border-bottom: none;
   margin-bottom: 0px;
   padding-bottom: 10px;
 }
 
-#research .tabgroup ul li img {
+.tabbed-list .tabgroup ul li img {
   float: left;
   margin-right: 30px;
   max-width: 100%;
@@ -865,11 +863,11 @@ header {
   height: 100%;
   overflow: hidden;
 }
-#research .tabgroup ul li .text-content {
+.tabbed-list .tabgroup ul li .text-content {
   display: inline;
 }
 
-#research .item .text-content h4 {
+.tabbed-list .item .text-content h4 {
   padding-top: 7.5px;
   margin-top: 0px;
   margin-bottom: 5px;
@@ -879,7 +877,7 @@ header {
   letter-spacing: 0.5px;
 }
 
-#research .item .text-content span {
+.tabbed-list .item .text-content span {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
@@ -888,9 +886,10 @@ header {
   margin-bottom: 15px;
 }
 
-#research .item .text-content .accent-button {
+.tabbed-list .item .text-content .accent-button {
   margin-top: 25px;
 }
+
 
 
 /* education Style */
